@@ -1,0 +1,71 @@
+.mainHeader {
+  width: 85.5%;
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 10px 0;
+  border-bottom: 1px solid #ECEBF5;
+  margin-left: auto;
+}
+.searchHD{
+    width: 321px;
+    padding: 15px 0 15px 15px;
+    background-color: #FAFAFC;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.searchHD:placeholder-shown{
+    font-size: 16px;
+    color: #A3A3C2;
+}
+.searchIcon{
+    margin: auto 0;
+    margin-left: -35px;
+    color: #A3A3C2;
+    font-size: 18px;
+}
+.headerLeft {
+  width: 140px;
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+  border: 1px solid #ecebf5;
+  border-radius: 8px;
+  margin-right: 60px;
+}
+.notifier {
+  width: 30%;
+  margin: auto 0;
+  display:flex;
+}
+.notifierIcon{
+    font-size: 20px;
+    color: #92929d;
+}
+.notifier p {
+  padding: 0px 5px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #f25a68;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: auto 0;
+}
+.divider {
+  border: 1px solid #ecebf5;
+}
+.userCard {
+  width: 40%;
+  justify-content: space-between;
+  display: flex;
+}
+.profileIMG {
+  padding: 13px;
+  border: 1px solid #6837EF;
+  border-radius: 50%;
+}
+.userIcon {
+  margin: auto;
+  color: #696d8c;
+}

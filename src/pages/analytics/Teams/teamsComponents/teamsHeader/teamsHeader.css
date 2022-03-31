@@ -1,0 +1,68 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.teamsHeader {
+  width: 85%;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.teamsHeader h2 {
+  margin-left: 35px;
+}
+.topForm {
+  width: 38%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 65px;
+}
+.topForm span {
+  display: flex;
+  align-items: center;
+}
+.topSearchIcon {
+  font-size: 18px;
+  margin-left: -305px;
+  color: #a3a3c2;
+}
+.topSearch {
+  width: 280px;
+  padding: 10px 0px 10px 15px;
+  border: 1px solid #e1e1eb;
+  border-radius: 8px;
+}
+.topSearch:placeholder-shown {
+  font-size: 16px;
+  color: #a3a3c2;
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+}
+.filterBTN {
+  width: 160px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  color: #060213;
+  font-size: 16px;
+  background-color: #ffffff;
+  padding-left: 25px;
+  border: 1px solid #e1e1eb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.filterBTNIcon {
+  margin-left: 15px;
+  color: #060213;
+}
+.export {
+  width: 105px;
+  height: 44px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #25bb87;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

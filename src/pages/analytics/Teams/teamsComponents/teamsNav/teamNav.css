@@ -1,0 +1,27 @@
+.teams-nav {
+  width: 85.7%;
+  float: right;
+  border-bottom: 1px solid #ecebf5;
+  padding:0
+}
+.teams-nav ul {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.teams-nav ul li {
+  list-style: none;
+}
+.teams-nav ul li button {
+  background-color: transparent;
+  color: #696d8c;
+  font-size: 16px;
+  padding-bottom: 20px;
+  border: none;
+  margin: auto 25px;
+  cursor: pointer;
+}
+.teams-nav ul li button:hover,
+button#TeamsActive {
+  color: #060213;
+  border-bottom: 1px solid #6837ef;
+}

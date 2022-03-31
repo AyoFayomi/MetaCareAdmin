@@ -1,0 +1,71 @@
+.sideBar {
+  width: 270px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 16px 5px;
+  border-right: 1px solid #ecebf5;
+}
+.sideBarCard {
+  width: 165px;
+  padding-left: 45px;
+  /* margin: auto; */
+  margin: 0px 0px 0px 45px;
+  border: 1px solid #ecebf5;
+  border-radius: 8px;
+}
+.sideCardName {
+  color: #060213;
+  margin-bottom: -10px;
+}
+.sideCardMail {
+  color: #696d8c;
+  font-size: 12px;
+}
+.navDiv {
+  margin: auto;
+  margin-top: 40px;
+}
+.navDiv ul {
+  width: 100%;
+}
+.navDiv ul li {
+  list-style: none;
+  margin-top: 30px;
+}
+.navDiv li button,
+.dropdown-container button {
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+  color: #696d8c;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.dropdown-container button {
+  margin-top: 20px;
+  margin-left: 9px;
+  padding-left: 33px;
+  border-left: 1px solid #ffffff;
+}
+.show {
+  display: none;
+}
+.main-icon {
+  font-size: 14px;
+  margin: 1px 25px 0px 0px;
+}
+.navDiv li button:hover,
+.navDiv button.active {
+  color: #6837ef;
+}
+span button:hover,
+button.active-drop {
+  border-left: 1px solid #ecebf5;
+  color: #060213;
+}
